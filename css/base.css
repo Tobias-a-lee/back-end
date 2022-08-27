@@ -1,0 +1,27 @@
+html,
+body {
+    font: 14.0025px/1.5 Microsoft YaHei;
+    color: #000;
+    background-color: #F3F5F9
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+img {
+    /* width: 100%; */
+    vertical-align: top;
+}
+
+* {
+    box-sizing: border-box;
+}

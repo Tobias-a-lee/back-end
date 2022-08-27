@@ -1,0 +1,378 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* 大于1400px的样式 */
+@media screen and (max-width:100vw) {
+    .xxl-flex {
+        display: flex;
+    }
+
+    .xxl-hide {
+        display: none;
+    }
+
+    .col-xxl-1 {
+        grid-area: auto/auto/auto/span 1;
+    }
+
+    .col-xxl-2 {
+        grid-area: auto/auto/auto/span 2;
+    }
+
+    .col-xxl-3 {
+        grid-area: auto/auto/auto/span 3;
+    }
+
+    .col-xxl-4 {
+        grid-area: auto/auto/auto/span 4;
+    }
+
+    .col-xxl-5 {
+        grid-area: auto/auto/auto/span 5;
+    }
+
+    .col-xxl-6 {
+        grid-area: auto/auto/auto/span 6;
+    }
+
+    .col-xxl-7 {
+        grid-area: auto/auto/auto/span 7;
+    }
+
+    .col-xxl-8 {
+        grid-area: auto/auto/auto/span 8;
+    }
+
+    .col-xxl-9 {
+        grid-area: auto/auto/auto/span 9;
+    }
+
+    .col-xxl-10 {
+        grid-area: auto/auto/auto/span 10;
+    }
+
+    .col-xxl-11 {
+        grid-area: auto/auto/auto/span 11;
+    }
+
+    .col-xxl-12 {
+        grid-area: auto/auto/auto/span 12;
+    }
+}
+
+/* 屏幕宽>1200px,同时<=1400px的样式 */
+@media screen and (max-width:1400px) {
+
+    .col-xl-1 {
+        grid-area: auto/auto/auto/span 1;
+    }
+
+    .col-xl-2 {
+        grid-area: auto/auto/auto/span 2;
+    }
+
+    .col-xl-3 {
+        grid-area: auto/auto/auto/span 3;
+    }
+
+    .col-xl-4 {
+        grid-area: auto/auto/auto/span 4;
+    }
+
+    .col-xl-5 {
+        grid-area: auto/auto/auto/span 5;
+    }
+
+    .col-xl-6 {
+        grid-area: auto/auto/auto/span 6;
+    }
+
+    .col-xl-7 {
+        grid-area: auto/auto/auto/span 7;
+    }
+
+    .col-xl-8 {
+        grid-area: auto/auto/auto/span 8;
+    }
+
+    .col-xl-9 {
+        grid-area: auto/auto/auto/span 9;
+    }
+
+    .col-xl-10 {
+        grid-area: auto/auto/auto/span 10;
+    }
+
+    .col-xl-11 {
+        grid-area: auto/auto/auto/span 11;
+    }
+
+    .col-xl-12 {
+        grid-area: auto/auto/auto/span 12;
+    }
+}
+
+/* 屏幕宽>992px,同时<=1200px的样式 */
+@media screen and (max-width:1200px) {
+    .lg-show {
+        display: block;
+    }
+
+    nav.left {
+        width: 75px;
+        overflow: hidden;
+    }
+
+    .main-right {
+        margin: 106px 10px auto 105px;
+
+    }
+
+    .col-lg-1 {
+        grid-area: auto/auto/auto/span 1;
+    }
+
+    .col-lg-2 {
+        grid-area: auto/auto/auto/span 2;
+    }
+
+    .col-lg-3 {
+        grid-area: auto/auto/auto/span 3;
+    }
+
+    .col-lg-4 {
+        grid-area: auto/auto/auto/span 4;
+    }
+
+    .col-lg-5 {
+        grid-area: auto/auto/auto/span 5;
+    }
+
+    .col-lg-6 {
+        grid-area: auto/auto/auto/span 6;
+    }
+
+    .col-lg-7 {
+        grid-area: auto/auto/auto/span 7;
+    }
+
+    .col-lg-8 {
+        grid-area: auto/auto/auto/span 8;
+    }
+
+    .col-lg-9 {
+        grid-area: auto/auto/auto/span 9;
+    }
+
+    .col-lg-10 {
+        grid-area: auto/auto/auto/span 10;
+    }
+
+    .col-lg-11 {
+        grid-area: auto/auto/auto/span 11;
+    }
+
+    .col-lg-12 {
+        grid-area: auto/auto/auto/span 12;
+    }
+}
+
+/* 屏幕宽>768px,同时<=992px的样式 */
+@media screen and (max-width:992px) {
+    nav.left {
+        display: none;
+    }
+
+    .main-right {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+
+    .col-md-1 {
+        grid-area: auto/auto/auto/span 1;
+    }
+
+    .col-md-2 {
+        grid-area: auto/auto/auto/span 2;
+    }
+
+    .col-md-3 {
+        grid-area: auto/auto/auto/span 3;
+    }
+
+    .col-md-4 {
+        grid-area: auto/auto/auto/span 4;
+    }
+
+    .col-md-5 {
+        grid-area: auto/auto/auto/span 5;
+    }
+
+    .col-md-6 {
+        grid-area: auto/auto/auto/span 6;
+    }
+
+    .col-md-7 {
+        grid-area: auto/auto/auto/span 7;
+    }
+
+    .col-md-8 {
+        grid-area: auto/auto/auto/span 8;
+    }
+
+    .col-md-9 {
+        grid-area: auto/auto/auto/span 9;
+    }
+
+    .col-md-10 {
+        grid-area: auto/auto/auto/span 10;
+    }
+
+    .col-md-11 {
+        grid-area: auto/auto/auto/span 11;
+    }
+
+    .col-md-12 {
+        grid-area: auto/auto/auto/span 12;
+    }
+}
+
+/* 屏幕宽>576px,同时<=768px的样式 */
+@media screen and (max-width:768px) {
+    .sm-hide {
+        display: none;
+    }
+
+    .sm-flex {
+        display: flex;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header .header-nav {
+        display: flex;
+    }
+
+    .header ul {
+        position: absolute;
+        top: 75px;
+        left: 124px;
+        width: 98px;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: 0 2px 4px #ddd;
+    }
+
+    .header ul li {
+        width: 100%;
+    }
+
+    .header ul li a {
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+    .col-sm-1 {
+        grid-area: auto/auto/auto/span 1;
+    }
+
+    .col-sm-2 {
+        grid-area: auto/auto/auto/span 2;
+    }
+
+    .col-sm-3 {
+        grid-area: auto/auto/auto/span 3;
+    }
+
+    .col-sm-4 {
+        grid-area: auto/auto/auto/span 4;
+    }
+
+    .col-sm-5 {
+        grid-area: auto/auto/auto/span 5;
+    }
+
+    .col-sm-6 {
+        grid-area: auto/auto/auto/span 6;
+    }
+
+    .col-sm-7 {
+        grid-area: auto/auto/auto/span 7;
+    }
+
+    .col-sm-8 {
+        grid-area: auto/auto/auto/span 8;
+    }
+
+    .col-sm-9 {
+        grid-area: auto/auto/auto/span 9;
+    }
+
+    .col-sm-10 {
+        grid-area: auto/auto/auto/span 10;
+    }
+
+    .col-sm-11 {
+        grid-area: auto/auto/auto/span 11;
+    }
+
+    .col-sm-12 {
+        grid-area: auto/auto/auto/span 12;
+    }
+}
+
+/* 小于等于576px的样式 */
+@media screen and (max-width:576px) {
+    .col-1 {
+        grid-area: auto/auto/auto/span 1;
+    }
+
+    .col-2 {
+        grid-area: auto/auto/auto/span 2;
+    }
+
+    .col-3 {
+        grid-area: auto/auto/auto/span 3;
+    }
+
+    .col-4 {
+        grid-area: auto/auto/auto/span 4;
+    }
+
+    .col-5 {
+        grid-area: auto/auto/auto/span 5;
+    }
+
+    .col-6 {
+        grid-area: auto/auto/auto/span 6;
+    }
+
+    .col-7 {
+        grid-area: auto/auto/auto/span 7;
+    }
+
+    .col-8 {
+        grid-area: auto/auto/auto/span 8;
+    }
+
+    .col-9 {
+        grid-area: auto/auto/auto/span 9;
+    }
+
+    .col-10 {
+        grid-area: auto/auto/auto/span 10;
+    }
+
+    .col-11 {
+        grid-area: auto/auto/auto/span 11;
+    }
+
+    .col-12 {
+        grid-area: auto/auto/auto/span 12;
+    }
+}
